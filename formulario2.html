@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    <p>Operacion Suma</p>
+    <form method="post" oninput="resultado.value=parseInt(valor1.value)+parseInt(valor2.value)">
+        <input type="number" id="valor1", value="0"> +
+        <input type="number" id="valor2"> =
+        <output name="resultado" for="valor1 valor2"></output>
+    </form>
+    <p>Operacion Resta</p>
+    <form method="post" oninput="resultado.value=parseInt(valor1.value)-parseInt(valor2.value)">
+        <input type="number" id="valor1", value="0"> -
+        <input type="number" id="valor2"> =
+        <output name="resultado" for="valor1 valor2"></output>
+    </form>
+    <p>Operacion Multiplicación</p>
+    <form method="post" oninput="resultado.value=parseInt(valor1.value)*parseInt(valor2.value)">
+        <input type="number" id="valor1", value="0"> *
+        <input type="number" id="valor2"> =
+        <output name="resultado" for="valor1 valor2"></output>
+    </form>
+    <p>Operacion División</p>
+    <form method="post" oninput="resultado.value=parseInt(valor1.value)/parseInt(valor2.value)">
+        <input type="number" id="valor1", value="0"> /
+        <input type="number" id="valor2"> =
+        <output name="resultado" for="valor1 valor2"></output>
+    </form>
+</body>
+</html>
