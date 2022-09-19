@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de registro</title>
+    <link rel="stylesheet" href="miEstilo.css">
+    <script src="nombre.js"></script>
+</head>
+<body>
+    <h1>Registro para vacunación COVID-19</h1>
+    <form action="" method="post" name="formRegistro">
+        <p>Nombre: <input type="text" name="nombre" id="nombre"></p>
+        <p>Usuario: <input type="text" name="usuario" id="usuario"></p>
+        <p>Sexo:
+            <input type="radio" name="sexo" value="h" id="h">hombre
+            <input type="radio" name="sexo" value="m" id="m">mujer
+        </p>
+        <p>Correo Electrónico: <input type="text" name="correo" id="correo" size="25"></p>
+        <p>Contraseña: <input type="password" name="pass" id="pass"></p>
+        <p>
+            <input type="checkbox" name="condiciones" id="condiciones"><a href="https://support.wix.com/es/article/crear-una-pol%C3%ADtica-de-t%C3%A9rminos-y-condiciones">Condiciones</a></p>
+        <button type="onSubmit" value="validar_formulario">Enviar</button>
+    </form>
+</body>
+</html>

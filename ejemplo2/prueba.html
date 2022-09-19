@@ -1,0 +1,20 @@
+<html>
+
+<head>
+  <title>Ejemplo de write</title>
+
+  <script>
+    function nuevoContenido() {
+      alert("carga el contenido nuevo");
+      document.open();
+      document.write("<h1>Quita el contenido viejo - Agrega el contenido nuevo!</h1>");
+      document.close();
+    }
+  </script>
+</head>
+
+<body onload="nuevoContenido();">
+  <p>Algo de contenido original del documento</p>
+</body>
+
+</html>
