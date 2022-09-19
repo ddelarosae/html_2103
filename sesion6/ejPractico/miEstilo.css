@@ -4,7 +4,9 @@ h1{
     color: #377ba8;
     background-color:lightblue;
     width:350px;
-    transform: translateX(225px);
+    padding:16px;
+    border-radius:10px;
+    margin: 0 auto;
 }
 form{
     width:350px;
