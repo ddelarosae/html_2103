@@ -10,15 +10,7 @@
     <h1>Ejemplo Open/Close</h1>
     <button onclick="abrir()">Abrir</button>
     <button onclick="cerrar()">Cerrar</button>
-    <script>
-        var ventana;
-        function abrir() {
-            ventana=window.open("","nuevo","width=200,height=200");
-            setTimeout("cerrar()",5000);//1S->1000mS
-        }
-        function cerrar() {
-            ventana.close();
-        }
+    <script src="ej2.js">
     </script>
 
 </body>

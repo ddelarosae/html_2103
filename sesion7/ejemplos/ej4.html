@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Uso del location</title>
+</head>
+<body bgcolor="#87CEEB">
+    <h1>Uso del location</h1>
+    <button onclick="info()">Información</button>
+    <p id="datos"></p>
+    <a href="http://google.com" alink="red">Link</a>
+    <script>
+        function info(){
+            document.getElementById("datos").innerHTML=
+            "La Información del navegador es:" + location.hostname;
+        }
+    </script>
+</body>
+</html>
