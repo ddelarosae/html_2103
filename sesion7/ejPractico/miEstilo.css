@@ -17,6 +17,7 @@ form{
 }
 form input{
     max-width: 500px;
+    border: 1px soild silver;
 }
 button{
     text-align: center;
