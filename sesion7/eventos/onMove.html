@@ -1,0 +1,29 @@
+<head>
+    <style>
+        #blueDiv {
+            position: absolute;
+            left:100px;
+            top:100px;
+            width:200px;
+            height:150px;
+            background-color: blue;
+        }
+    </style>
+    <script type="text/javascript">
+        function ChangePos (){
+            var blueDiv = document.getElementById ("blueDiv");
+            blueDiv.style.left = "200px";;
+            blueDiv.style.top = "200px";;
+        }
+
+        function OnMove (blueDiv) {
+            var l = blueDiv.offsetLeft;
+            var t = blueDiv.offsetTop;
+            alert ("The position of the blue element's top-left corner will change to (" + l + ", " + t + ").");
+        }
+    </script>
+</head>
+<body>
+    <div id="blueDiv" onmove="OnMove (this);"></div>
+    <button onclick="ChangePos ();">Change the position of the blue element</button>
+</body>
