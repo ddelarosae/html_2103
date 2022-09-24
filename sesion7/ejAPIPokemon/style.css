@@ -1,0 +1,22 @@
+#pokedex{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(120px,1fr));
+    grid-gap: 16px;
+}
+.card{
+    background-color: rgb(40, 228, 40);
+    list-style: none;
+    text-align: center;
+}
+.card-image{
+    height:150px;
+}
+.card-subtitle{
+    color: brown;
+    font-weight: bold;
+    font-size: larger;
+}
+.card-title{
+    font-family: Impact;
+}
+body { background: #e26767ea !important;}
